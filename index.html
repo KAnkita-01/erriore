@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Flowers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            text-align: center;
+            padding: 30px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beautiful Flowers</h1>
+    </header>
+
+    <div class="gallery">
+        <img src="https://example.com/flower1.jpg" alt="Flower 1">
+        <img src="https://example.com/flower2.jpg" alt="Flower 2">
+        <img src="https://example.com/flower3.jpg" alt="Flower 3">
+        <img src="https://example.com/flower4.jpg" alt="Flower 4">
+        <img src="https://example.com/flower5.jpg" alt="Flower 5">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Flower Gallery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
